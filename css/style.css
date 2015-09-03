@@ -463,9 +463,11 @@ ul {
 }
 .top-navigation .links {
   float: right;
+  font-family: 'Roboto', sans-serif;
   color: #838994;
   font-size: 1.04rem;
   margin-top: 1.7rem;
+  -webkit-font-smoothing: antialiased;
 }
 .top-navigation .links li {
   display: inline-block;

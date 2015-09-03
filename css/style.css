@@ -431,7 +431,7 @@ th {
 
 
 body {
-  background-color: LightGray;
+  background-color: Gray;
 }
 div {
   border:1px solid Chocolate;
@@ -446,6 +446,9 @@ ul {
   padding:0 0.938rem;
   margin: 0 auto;
   min-width: 37.5rem;
+  margin: 0 auto;
+  width: 970px;
+  text-align: center;
 }
 /* Navigation Section */
 .top-navigation {
@@ -480,4 +483,21 @@ ul {
 .top-navigation .links li.hover {
   cursor: pointer;
   color:#333333;
+}
+
+/* Introduction Section*/
+
+.introduction {
+  background-image: url('file:///users/benjamin/desktop/projects/startup-landing-page-clone/Images/first-background.jpg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 46rem;
+  overflow: auto;
+  
+}
+.introduction > .content {
+  color: #ffffff;
+  margin-top: 100px;
+  
 }

@@ -509,3 +509,9 @@ button {
   color: white;
   font-size: 1.125rem;
 }
+.cases .content{
+margin-top: 7.875rem;
+padding: none;
+color: #1d1e21;
+text-align: center;
+}

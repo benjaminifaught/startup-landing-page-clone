@@ -435,9 +435,7 @@ body {
 }
 div {
   border:1px solid Chocolate;
-}
-nav {
-  display: block;
+  vertical-align: baseline;
 }
 ul {
   list-style: none;
@@ -509,9 +507,17 @@ button {
   color: white;
   font-size: 1.125rem;
 }
-.cases .content{
+.cases > .content {
 margin-top: 7.875rem;
 padding: none;
 color: #1d1e21;
 text-align: center;
 }
+
+.cases .devices li {
+  display: inline-block;
+  /*styles to assist with debugging */
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+

@@ -493,7 +493,7 @@ ul {
 /* Introduction Section*/
 
 .introduction {
-  background-image: url('../Images/first-background.jpg');
+  background-image: url('file:///users/benjamin/desktop/projects/startup-landing-page-clone/Images/first-background.jpg');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
